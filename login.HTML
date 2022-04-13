@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="TRANSPORT.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SCANIA TRANSPORTATION COM[PPANY</title>
+</head>
+<body>
+    <div class="main">
+        <div class="dodo">
+            <div class="box" >
+            <table border="0" align="center" width="100%">
+            <tr ><td border-radius="50px">
+                <h1>
+            <center><img src="pm.jpg" width="100" height="90" ></center></td><td>
+            <h1>SCANIA TRANSPORTATION COMPANY</h1>
+            </tr></td>
+            </table>
+            </div>
+            <div class="btn">
+                <button class="mm"><a href="HOME.html">HOME</a></bultton>
+                    <button class="mm"><a href="requirement.HTML">REQUIREMENTS</a></button>
+                    <button class="mm"><a href="trucks.HTML"> TRUCKS</a></button>
+                    <button class="mm"><a href="services.HTML">SERVICES</a></button>
+                    <button class="mm"><a href="contact.HTML">CONTACT US</a></button>
+                    <button class="mm"><a href="login.HTML">LOG IN</a></button>
+           </div>
+        </div>
+        <script>
+            function login()
+            {
+                var name=document.getElementById("name").value;
+                var pass=document.getElementById("pass").value;
+                if(name=="SHAMIRA" && pass=="SHAM"){
+                        alert("login sucessful");
+                    }
+                    else
+                    {
+                        alert("incorrect username or password");
+                    }
+            }
+            </script>
+            <div class="LOG "> 
+               <h2>Register Here</h2>
+               <form>
+                  username:<input placeholder="please enter username" type="text" id="name"name="uname"><br>
+                  password:<input placeholder="please enter password" type="password" id="pass" name="pwd"><br>
+                  <input type="submit" value="send" onclick="login()">
+               </form>
+           </div>
+   
+</body>
+</html>

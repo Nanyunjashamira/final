@@ -1,0 +1,223 @@
+table{
+
+    color:yellow;
+    width: 100%;
+    
+    
+    }
+    .dodo img{
+        transition: 1s;
+        }
+        .dodo img:hover{
+        filter:grayscale[100%];
+        transform: scale(1.1);
+        }
+        .LOG{
+            color: aqua;
+        }
+        
+.main{
+    
+    padding: 30px;
+    background-image:url(log1.jpg);
+    background-size: cover;
+ 
+
+}
+.box{
+    
+    background-color:white;
+background-color:transparent; 
+color:yellow;
+font-family:jokerman;
+
+
+}
+.inner2{
+
+    padding: 50px;
+    text-align: unset;
+    color: aqua;
+}
+.inner3{
+    
+    padding: 10px;
+    color:aqua;
+}
+.pc{    
+    display: flex;
+    border-radius: 50px;
+    justify-content: flex-end;
+
+}
+.btn{
+    display: flex;
+    padding-left: 500px;
+    flex-basis: 5px;
+    text-decoration: none;
+
+}
+.mm{
+    border-radius: 20px;
+    padding: 10px;
+    background-color:aqua;
+border-color: black;
+
+
+}
+.pic{
+    border-radius: 700px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+  padding: 40px;
+}
+.welcome{
+    text-align: center;
+    color:yellow;
+}
+.view{
+    border-radius: 12px;
+    background:black;
+    padding: 12px;
+    border-color:red;
+}
+:hover.view{
+color: blue;
+background: yellow;
+}
+.REQUIREMENTS{
+    color:aqua;
+    background-image:transparent url(TP7.jpg);
+    background-size: cover;
+    font-family:sans-serif;
+    text-align: center;
+
+}
+.serve{
+    color:white;
+    font-family: sans-serif;
+}
+.lock{
+align:center;
+}
+.Trucks{
+    color: aqua;
+background-size: cover;
+font-family:sans-serif;
+}
+.svs{
+    background-image:url(TP8.jpg);
+    color:red;
+    background-size:cover;
+} 
+.LOG{
+    max-width:350px;
+	border-radius:20px;
+	margin:auto;
+    box-sizing:border-box;
+	padding:40px;
+	color:aqua;
+    margin-top:50px;
+   background:red (0,0,0,0.8);
+   font-size: 25px;
+}   
+h2{
+    text-align: center;
+}
+input[type=text],input[type=password]{
+    width:100%;
+	box-sizing:border-box;
+	padding:12px 5px;
+	background:white;
+	outline:none;
+	border:none;
+	border-bottom:1px solid black;
+	color:black;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+input[type=submit]{
+    width:100%;
+	box-sizing:border-box;
+	margin-top:30px;
+	padding:10px 0;
+    outline:none;
+	border:none;
+	background:red;
+	opacity:0.7;
+	border-radius:20px;
+	font-size;20px;
+	color:#fff;
+}
+input[type=submit]:hover{
+    background:green;
+	opacity:0.9;  
+}
+.bodylogin{
+    background-image: url("bk.jpg");
+    background-size: cover;
+}
+.body{
+    background-image: url("v2.png");
+    background-size: cover;
+    color: red;
+    font-family:Algerian ;
+
+}
+.pro{
+    text-align:left;
+}
+.req{
+display: flex;
+}
+p{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.conta{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
